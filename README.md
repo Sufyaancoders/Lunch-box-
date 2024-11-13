@@ -24,12 +24,30 @@
         <div class="lunch-option">
             <input type="radio" id="veg" name="lunch_type" value="veg">
             <label for="veg">Vegetarian</label>
-            
-        </div>
+             <select>
+                <option value="Choose Dishes">Choose Dishes</option>
+                <option value="Dal">Dal</option>
+                <option value="Mater Paneer">Mater paneer</option>
+                <option value="Chhole">Chhole</option>
+                <option value="Palak">Palak</option>
+                <option value="Soyachap">Soyachap</option>
+                <option value="Curry">Curry</option>
+                <option value="Bhaji">Bhaji</option>
+                <option value="Sahi paneer">Sahi paneer></option>
+            </select>
+        </div><br>
 
         <div class="lunch-option">
             <input type="radio" id="non-veg" name="lunch_type" value="non-veg">
             <label for="non-veg">Non-Vegetarian</label>
+            <select>
+                <option value="Choose Dishes">Choose Dishes</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Matan">Matan</option>
+                <option value="Chiken Biryani">Chicken Biryani</option>
+                <option value="Rosted chiken">Rosted chiken</option>
+                <option value="Boil Chiken">Boil chiken</option>
+            </select>
         </div>
 
         <br>
