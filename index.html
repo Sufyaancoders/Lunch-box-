@@ -1,62 +1,51 @@
 # Lunch-box-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Order Your Lunch</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            background: linear-gradient(to right,#1abc9c,#3498db);
+        }
+       
+        .a{
+            padding:20px;
+            margin: 10px;
+            color: black;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 35px;
+            overflow: hidden;
+            white-space: nowrap;            
+            
+        }
+        .a{
+           animation: scroll-left 10s linear infinite;
+        }
+        @keyframes scroll-left {
+            0%{
+                transform: translateX(-100%);
+            }
+            100%{
+                transform: translateX(100%);
+            }
+            
+        }
+     </style>
 </head>
-
 <body>
-    <h1>Order Your Lunch</h1>
-
-    <form action="order_process.php" method="post"> <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required><br><br>
-
-        <label for="address">Delivery Address:</label>
-        <textarea id="address" name="address" required></textarea><br><br>
-
-        <h2>Choose Your Lunch</h2>
-
-        <div class="lunch-option">
-            <input type="radio" id="veg" name="lunch_type" value="veg">
-            <label for="veg">Vegetarian</label>
-             <select>
-                <option value="Choose Dishes">Choose Dishes</option>
-                <option value="Dal">Dal</option>
-                <option value="Mater Paneer">Mater paneer</option>
-                <option value="Chhole">Chhole</option>
-                <option value="Palak">Palak</option>
-                <option value="Soyachap">Soyachap</option>
-                <option value="Curry">Curry</option>
-                <option value="Bhaji">Bhaji</option>
-                <option value="Sahi paneer">Sahi paneer></option>
-            </select>
-        </div><br>
-
-        <div class="lunch-option">
-            <input type="radio" id="non-veg" name="lunch_type" value="non-veg">
-            <label for="non-veg">Non-Vegetarian</label>
-            <select>
-                <option value="Choose Dishes">Choose Dishes</option>
-                <option value="Chicken">Chicken</option>
-                <option value="Matan">Matan</option>
-                <option value="Chiken Biryani">Chicken Biryani</option>
-                <option value="Rosted chiken">Rosted chiken</option>
-                <option value="Boil Chiken">Boil chiken</option>
-            </select>
-        </div>
-
-        <br>
-
-        <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
-
-        <input type="submit" value="Order Now">
-    </form>
+    <div class="a">
+    <main>
+    <h>WELCOME TO DELICIOUS FOOD</h> </div> 
+     <p></p>
+    </main>
+    <mid><p></p></mid>
+    <bottom></bottom>
+   
 </body>
-
 </html>
+   
