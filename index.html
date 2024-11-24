@@ -1,20 +1,35 @@
-# Lunch-box-
+<!--Lunch-box--> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="a.css"> 
+    <link rel="stylesheet" href="main.css"> 
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="https//:www.google.com">Home</li></a>
-            <li><a href="#">Menu</li></a>
-            <li><a href="#">Contact us</li></a>
-        </ul>
-    </nav>
+    <header>
+        <div>
+            <nav class="navbar">
+                <div class="logo">
+                   
+                    <span>HEALTHY LUNCH BOX</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        
+        
+        </div>
+    </header>
+
     <div class="a">
     <h>WELCOME TO DELICIOUS FOOD</h>
    </div> 
@@ -42,108 +57,3 @@ Looking for a healthy lunch menu? Great news, you just hit the right spot! We ar
     </div>
 </body>
 </html>
-
-
-///add the css folder in new page
-*{
-    padding: 0%;
-    margin: 0%;
-   background-color: bisque;
-}
-nav{
-    background-color: bisque;
-    overflow: hidden;
-}
-nav ul{
-    list-style-type : none;
-    margin: .3%;
-   
-}
-nav li{
-    float:inline-start;
-    margin-right: 20px;
-
-}
-nav li a{
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration:none;
-
-
-
-}
-nav li a:hover{
-    color: black;
-    
-}
-.a{
-    padding:20px;
-    margin: 10px;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 35px;
-    overflow: hidden;
-    white-space: nowrap;  
-    background-image: url("download (1).jpeg"); 
-    background-size: contain;
-    background-position: center;         
-  
-}
-.a{
-   animation: scroll-left 10s linear infinite;
-   
-}
-@keyframes scroll-left {
-    0%{
-        transform: translateX(-100%);
-    }
-    100%{
-        transform: translateX(100%);
-    }
-    
-}
-p{
-    margin: 18px;
-color: red;
-text-align: center;
-font-size: 36px;
-text-decoration: underline;
-
-}
-.b{
-    color : black;
-    font-size : 20px;
-    font-weight: 400px;
-
-
-}
-.b img{
-   height: 170px;
-   background-size: contain;
-   background-position:center;
-}
-.c{
-    color: black;
-    font-size: 20px;
-    font-weight: dark;
-
-
-}
-.c img{
-    height: 170px;
-    width: 180px;
-}
-.d p{
-    font-size: 36px;
-    color: red;
-    text-align: center;
-    margin: 20px;
-}
-.d h2{
-    color: red;
-    text-align: center;
-    font-size: 36px;
-    text-decoration: underline;
-}
